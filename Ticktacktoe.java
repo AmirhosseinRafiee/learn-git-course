@@ -75,7 +75,7 @@ public class Ticktacktoe {
         turn = true;
         System.out.println("\n New Game ");        
     }
-    
+    // set players name
     private void reName() {
         if((player1.equals("player1")) || (player2.equals("player2"))) {
             String name = "";
