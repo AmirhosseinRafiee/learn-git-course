@@ -113,7 +113,7 @@ public class Ticktacktoe {
         turn = turn.equals(true) ? false : true;
         counter++;
     }
-    
+    // reset values
     private void initTable() {
         table.put(1 , "1");
         table.put(2 , "2");
