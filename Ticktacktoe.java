@@ -95,7 +95,7 @@ public class Ticktacktoe {
                 player2 = name; 
         }
     }
-    
+    // check and process input
     private void processCellInput(int cell) {
         if((cell<1) || (cell>9)) {
             System.out.println("Wrong input <1 or >9 ");
